@@ -1,0 +1,37 @@
+<rss version="2.0"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+  <channel>
+    
+    <title>WJGilmore.com</title>
+    <link>http://localhost/index.php/site/index/</link>
+    <description></description>
+    <dc:language>en</dc:language>
+    <dc:creator>wj@wjgilmore.com</dc:creator>
+
+    <dc:rights>Copyright 2010</dc:rights>
+    <dc:date>2010-07-21T13:24:52+00:00</dc:date>
+    <admin:generatorAgent rdf:resource="http://expressionengine.com/" />
+    
+    <item>
+      <title>E-Commerce Made Easy with FoxyCart</title>
+      <link>http://www.wjgilmore.com/index.php/site/e-commerce_made_easy_with_foxycart/</link>
+      <description></description>
+      <dc:subject>ExpressionEngine, PHP</dc:subject>
+      <dc:date>2010-07-21T13:24:52+00:00</dc:date>
+    </item>
+
+    <item>
+      <title>Refactor Your Web Site Database with Stored Procedures and Views</title>
+      <link>http://www.wjgilmore.com/site/refactor_your_web_site_database/</link>
+      <description></description>
+      <dc:subject>PHP, Zend Framework</dc:subject>
+      <dc:date>2010-07-20T20:24:14+00:00</dc:date>
+    </item>
+  </channel>
+</rss>
+

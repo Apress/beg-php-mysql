@@ -1,0 +1,17 @@
+<html>
+   <head>
+   <title>Breaking News</title>
+   <script type="text/javascript">
+      function mail(id) {
+         window.open("mail.php?id=" + id, "info",  
+                               "width=250,height=250,scrollbars=0,resizable=0")
+      }
+   </script>
+   </head>
+   <body bgcolor="#ffffff" text="#000000" link="#0000ff" 
+         vlink="#800080" alink="#ff0000">
+      <a href="#" onclick="mail(<?php echo $id; ?>);">
+      Mail this article to a friend</a>
+      Article content goes here...
+   </body>
+</html>

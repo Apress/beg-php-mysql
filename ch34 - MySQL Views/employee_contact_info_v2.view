@@ -1,0 +1,5 @@
+CREATE VIEW employee_contact_info_view
+  (`First Name`, `Last Name`, `Email Address`, `Telephone`) AS
+  SELECT first_name, last_name, email, phone
+  FROM employees ORDER BY last_name ASC;
+
